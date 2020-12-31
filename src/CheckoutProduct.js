@@ -4,7 +4,7 @@ import { useStateValue } from "./StateProvider";
 import "./CheckouProduct.css";
 
 function CheckoutProduct({ id, price, rating, title, image }) {
-  const [dispatch] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
   return (
     <div className="checkoutProduct">
       <img src={image} alt="" className="checkoutProduct__image" />
@@ -14,11 +14,11 @@ function CheckoutProduct({ id, price, rating, title, image }) {
           <small>$</small>
           <strong>{price}</strong>
         </p>
-        <div className="product__rating">
+        <div className="checkout__rating">
           {Array(rating)
             .fill()
             .map((_) => (
-              <Star />
+              <Star className="star" />
             ))}
         </div>
         <button

@@ -2,13 +2,13 @@
 import firebase from "firebase";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyD8rmfiJmw_WAkT8ZGdLBDpK3VoUtASoKQ",
-  authDomain: "fir-62c15.firebaseapp.com",
-  projectId: "fir-62c15",
-  storageBucket: "fir-62c15.appspot.com",
-  messagingSenderId: "458303492416",
-  appId: "1:458303492416:web:7bf3bdeac8762c2418aaa5",
-  measurementId: "G-8GY1VL792M",
+  apiKey: "AIzaSyDjegIRiPcp3mrpPj3eofYQ982xpXPtwlQ",
+  authDomain: "amaz-17a43.firebaseapp.com",
+  projectId: "amaz-17a43",
+  storageBucket: "amaz-17a43.appspot.com",
+  messagingSenderId: "902955713297",
+  appId: "1:902955713297:web:954511a9b753a99f9202b0",
+  measurementId: "G-9XDSSTM4PS",
 });
 
 const auth = firebaseApp.auth();
